@@ -12,7 +12,7 @@ export class AppComponent implements OnInit{
 	ngOnInit() {
 		this.router.events.subscribe((event: any) => {
 			if (typeof event.urlAfterRedirects === 'string') {
-				this.titleService.setTitle('MICDS Robotics - ' + event.urlAfterRedirects);
+				this.titleService.setTitle('MICDS Robotics - ' + event.urlAfterRedirects.slice(1));
 			}
 		});
 	}

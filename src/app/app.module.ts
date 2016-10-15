@@ -8,7 +8,8 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { SignInComponent } from './sign-in/sign-in.component';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './navbar/navbar.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component'
 		BlogComponent,
 		AboutComponent,
 		SignInComponent,
-		HomeComponent
+		HomeComponent,
+		NavbarComponent
   ],
   imports: [
     BrowserModule,
